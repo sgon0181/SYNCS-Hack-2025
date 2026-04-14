@@ -1,4 +1,4 @@
-# SYNCS-Hack-2025
+# SYNCS-Hack-2025 myread
 ---
 ## Result
 We ended up making the finals for this hackathon with our project, hai. We also won the "Best Pitch" award for having the best presentation out of all the teams.
