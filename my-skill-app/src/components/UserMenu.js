@@ -74,30 +74,30 @@ const UserMenu = ({ currentUser, isLoggedIn, onNavigateToAccount, onLogout, chil
                   </p>
                 </div>
                 <div className="border-t border-white/10 my-1"></div>
-                <a
-                  href="#"
+                <button
+                  type="button"
                   onClick={handleNavigate}
-                  className="block px-4 py-2 text-md hover:bg-white/10 transition-colors"
+                  className="block w-full text-left px-4 py-2 text-md hover:bg-white/10 transition-colors"
                 >
                   Account Settings
-                </a>
+                </button>
                 {children}
-                <a
-                  href="#"
+                <button
+                  type="button"
                   onClick={handleLogoutClick}
-                  className="block px-4 py-2 text-md hover:bg-white/10 transition-colors"
+                  className="block w-full text-left px-4 py-2 text-md hover:bg-white/10 transition-colors"
                 >
                   Logout
-                </a>
+                </button>
               </>
             ) : (
               <>
-                <a href="#" onClick={handleNavigate} className="block px-4 py-3 text-md hover:bg-white/10 transition-colors">
+                <button type="button" onClick={handleNavigate} className="block w-full text-left px-4 py-3 text-md hover:bg-white/10 transition-colors">
                   Login
-                </a>
-                <a href="#" onClick={handleNavigate} className="block px-4 py-3 text-md hover:bg-white/10 transition-colors">
+                </button>
+                <button type="button" onClick={handleNavigate} className="block w-full text-left px-4 py-3 text-md hover:bg-white/10 transition-colors">
                   Register
-                </a>
+                </button>
               </>
             )}
           </div>
