@@ -1,43 +1,28 @@
-# SYNCS-Hack-2025
----
-## Result
-We ended up making the finals for this hackathon with our project, hai. We also won the "Best Pitch" award for having the best presentation out of all the teams.
+# hai: learn something with someone
 
-Relevant links:
-- Devpost: https://devpost.com/software/hai-learn-something-with-someone
-- Video demo: https://youtu.be/DiQQcMn73wE
----
+A team-built skill-sharing prototype from SYNCS Hack 2025. The team reached the finals and won Best Pitch, as recorded in the original project documentation.
 
-## Problem Statement: CITIES OF THE FUTURE
+[Project submission](https://devpost.com/software/hai-learn-something-with-someone) | [Demo video](https://youtu.be/DiQQcMn73wE)
 
-The world is ever-evolving and the cities are becoming more than just places to live. They are centres of culture, innovation, and human connection. But as populations grow and move into urban areas, the challenges of sustainability, efficiency, and optimality grow more urgent.
+## Santiago's contribution
 
-Climate change, resource scarcity, and the evolving nature of work all raise the same question: What kind of technologies will power the Cities of the Future? How might we design tools and systems that help cities thrive in the face of these challenges?
- 
-- How can urban infrastructure be reimagined to ensure sustainability in the long term under the ever-present issue of climate change?
-- What solutions can optimise public resources, such as water, electricity, and waste management, in expanding cities?
-- How can we support diverse industries and workers in a future where remote work and the gig economy are the norm?
+This is Santiago Gonzalez Alvarez's portfolio fork of [the team repository](https://github.com/aetherspec/SYNCS-Hack-2025). Original authorship and history are preserved.
 
-## Our Solution: hai
-hai, short for "hobbies and interests", a new social platform to enable you to swap learning skills. Whether its a new language, new sport or hobby, you'll find it in hai.
+My attributable implementation work includes the main React application, user-menu interactions, and interface styling. Commit `ae376c5` changes `my-skill-app/src/App.js`, `components/UserMenu.js`, and `index.css`. Other commits contain small page edits and project notes. This was a team project; I did not build every feature.
 
-Future cities will be more melded with technology than ever, so in a digital world we want our communities to thrive off connection through similar ideals, passions and interests.
+## Inspect and run
 
-So come on, say hai, learn a new skill and make some new friends along the way.
+The React application uses Leaflet for map-based discovery. Start in `my-skill-app`; other folders preserve earlier prototypes.
 
-## Instructions
-To run this webpage, you will need to:
-```
-git clone https://github.com/ouzo-hangover/SYNCS-Hack-2025
-```
-
-Then change your directory
-```
-cd my-skill-app
-```
-
-Then install `npm` and run.
-```
-npm install
+```bash
+git clone https://github.com/sgon0181/SYNCS-Hack-2025.git
+cd SYNCS-Hack-2025/my-skill-app
+npm ci
 npm start
 ```
+
+## Evaluation boundaries
+
+Gitleaks found no secrets in the scanned Git history. This is a hackathon prototype with demo interactions, not a production social network. The legacy Create React App toolchain needs review before a public service deployment. This review does not claim a new runtime or browser test.
+
+Team code and media retain their original authorship. No repository-wide license was found; this fork adds no license on behalf of teammates or media owners.
